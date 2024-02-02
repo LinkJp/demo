@@ -1,0 +1,4 @@
+baseURL = 'http://demo.j-p.link/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "github.com/nicokaiser/hugo-theme-gallery"

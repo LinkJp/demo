@@ -1,0 +1,3 @@
+[submodule "demo/themes/gallery"]
+	path = demo/themes/gallery
+	url = https://github.com/nicokaiser/hugo-theme-gallery.git
