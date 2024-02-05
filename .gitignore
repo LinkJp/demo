@@ -2,4 +2,4 @@
 *lock*
 *.tfstate*
 ./demo
-./.terraform*
+.terraform/*

@@ -123,7 +123,7 @@ Changes to Outputs:
 Ist dies der Fall, kann die VM via `terraform apply` hochgezogen werden. 
 
 **Ab dieser Stelle entstehen Kosten. Der ausgewählte Servertyp cx11 liegt bei 3,92€/mo (bei stundengenauer Abrechnung!), eine öffentliche IPv4 bei 0,001€/h.
-Zur Einordnung, das mehrfache aufbauen und wieder abreißen sowie die Live Demo haben insgesamt Kosten von etwa 1,47€ erzeugt.**
+Zur Einordnung, das mehrfache aufbauen und wieder abreißen sowie die Live Demo haben insgesamt Kosten von etwa 0,47€ erzeugt.**
 
 Ist nun der Server in hoch, ist die öffentliche IPv4 die zugewiesen wurde ersichtlich. Diese muss nun in die [inventory](https://github.com/LinkJp/demo/blob/main/inventory) Datei geschrieben werden.
 
