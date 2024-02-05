@@ -1,5 +1,7 @@
 # Kurzdemo zu Terraform und Ansible.
 
+Automatisiertes Aufsetzen einer kleinen Ubuntu VM mit einem nginx Webserver und einer kleinen statischen Bildergallerie.
+
 ## Erforderliche Software:
 
 [Hashicorp - Terraform](https://developer.hashicorp.com/terraform/install)
