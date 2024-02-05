@@ -5,14 +5,13 @@
   vars:
     server_name: "{{ ansible_default_ipv4.address }}"
     document_root: /var/www/html
-    app_root: demo/themes/gallery/exampleSite/public
+    app_root: demosite/public
   tasks:
     - name: Update apt cache and install Nginx
       ansible.builtin.apt:
         name: nginx
         state: present
         update_cache: true
-
     - name: Copy website files to the server's document root
       ansible.builtin.copy:
         src: "{{ app_root }}"

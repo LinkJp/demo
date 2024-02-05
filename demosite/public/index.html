@@ -1,0 +1,177 @@
+<!doctype html>
+<html class="dark h-full" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Gallery</title>
+  <link rel="canonical" href="/" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin="anonymous" integrity="sha256-ive9W1RVZ63/s9/Otb7bNTpSLXvxs6K4r3tgZBVrq8A=" />
+  <meta name="description" content="An example site for hugo-theme-gallery. Images from Unsplash." />
+  
+  <meta name="generator" content="Hugo 0.122.0">
+  
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Gallery" />
+  <meta property="og:title" content="My Gallery" />
+<meta property="og:description" content="An example site for hugo-theme-gallery. Images from Unsplash." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" /><meta property="og:image" content="/martin-martz-wRuhOOaG-Z4-unsplash.jpg" /><meta property="og:site_name" content="My Gallery" />
+
+  
+  <link rel="stylesheet" href="/css/main.min.ad8afaf06117904a64205c011352640cc4542fc375d3ca400309d21700fa8cec.css" />
+  
+  <script src="/js/main.2bcce46d7caa55b5d164995fba2a9e4d7e366fff499ce485b39287a7b50e35df.js" defer></script>
+</head>
+
+  <body class="flex min-h-full flex-col antialiased">
+    <header x-data="{ menu: false }">
+  <nav class="navbar mx-auto max-w-screen-3xl">
+    <div class="flex-1">
+      
+        <a class="btn btn-ghost text-xl" href="/">
+          Gallery
+        </a>
+      
+    </div>
+
+    <div class="flex-none">
+      <button class="btn btn-square btn-ghost" @click.prevent="menu = !menu" type="button" title="Albums">
+        <svg class="h-6 w-6" x-show="!menu" data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path clip-rule="evenodd" fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"></path>
+        </svg>
+        <svg class="h-6 w-6" x-cloak="x-cloak" x-show="menu" data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path clip-rule="evenodd" fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="w-full" x-cloak x-show="menu"><ul class="mb-16 mt-8 text-center text-lg font-semibold text-base-content/60 mx-auto max-w-screen-md select-none">
+  
+    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+      <a class="block py-2 hover:text-base-content aria-[current=true]:text-base-content" aria-current="true" href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+    
+      
+        
+        <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+          <a class="block py-3 hover:text-base-content aria-[current=true]:text-base-content" aria-current="false" href="/animals/" itemprop="url">
+            <span itemprop="name">Animals</span>
+          </a>
+        </li>
+      
+    
+      
+    
+      
+    
+      
+        
+        <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+          <a class="block py-3 hover:text-base-content aria-[current=true]:text-base-content" aria-current="false" href="/nature/" itemprop="url">
+            <span itemprop="name">Nature</span>
+          </a>
+        </li>
+      
+    
+  
+    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+      <a class="block py-2 hover:text-base-content aria-[current=true]:text-base-content" aria-current="false" href="/about/" itemprop="url">
+        <span itemprop="name">About</span>
+      </a>
+    </li>
+</ul>
+</div>
+</header>
+
+    <main class="mx-auto h-full w-full max-w-screen-3xl grow">
+      
+  
+  <div class="mx-auto mb-16 mt-8 flex max-w-screen-lg flex-col items-center gap-6 px-6 text-center">
+    <h1 class="text-3xl font-bold md:text-4xl">Hi Systema</h1>
+    
+      <p class="text-base-content/60 md:text-lg">An example site for hugo-theme-gallery. Images from Unsplash.</p>
+    
+  </div>
+
+
+  
+
+  
+
+
+
+
+<div class="mb-16 mt-8 grid grid-cols-1 gap-x-6 gap-y-8 px-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5">
+  
+    
+    
+      
+      
+      
+      
+      <a class="card card-compact group" href="/animals/" title="Animals">
+        <figure class="rounded-2xl shadow-sm transition-all duration-300 hover:shadow-lg group-hover:scale-[1.02]" style="background-color: #161411">
+          <img class="lazyload aspect-[3/2] w-full object-cover" data-src="/animals/janis-ringli-UC1pzyJFyvs-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_4683359_600x600_fit_q75_catmullrom.jpg" alt="Animals" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title text-lg leading-6">Animals</h2>
+          <p class="text-base-content/60">
+            3 photos
+            in 1 album
+          </p>
+        </div>
+      </a>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      
+      
+      
+      
+      <a class="card card-compact group" href="/nature/" title="Nature">
+        <figure class="rounded-2xl shadow-sm transition-all duration-300 hover:shadow-lg group-hover:scale-[1.02]" style="background-color: #c0baad">
+          <img class="lazyload aspect-[3/2] w-full object-cover" data-src="/nature/azzedine-rouichi-f_C_lFxqThI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_3444055_600x600_fit_q75_catmullrom.jpg" alt="Nature" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title text-lg leading-6">Nature</h2>
+          <p class="text-base-content/60">
+            5 photos
+            
+          </p>
+        </div>
+      </a>
+    
+  
+</div>
+
+
+    </main>
+    <footer class="footer footer-center max-w-screen-3xl p-10 opacity-60">
+  <nav class="grid grid-flow-col gap-4">
+    © Your Name
+    
+      <a class="link link-hover" href="/imprint/">
+        Imprint
+      </a>
+    
+      <a class="link link-hover" href="https://github.com/nicokaiser/hugo-theme-gallery/">
+        GitHub
+      </a>
+    
+  </nav>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Gallery on Gallery</title>
+    <link>/</link>
+    <description>Recent content in Hugo Gallery on Gallery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>user@example.com (Your Name)</managingEditor>
+    <webMaster>user@example.com (Your Name)</webMaster>
+    <copyright>© Your Name</copyright>
+    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nature</title>
+      <link>/nature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
+      <guid>/nature/</guid><media:content url="/nature/azzedine-rouichi-f_C_lFxqThI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_3444055_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;/nature/azzedine-rouichi-f_C_lFxqThI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_3444055_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;p&gt;Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Dogs</title>
+      <link>/animals/dogs/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0100</pubDate><author>user@example.com (Your Name)</author>
+      <guid>/animals/dogs/</guid><media:content url="/animals/dogs/milli-2l0CWTpcChI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_795324_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;/animals/dogs/milli-2l0CWTpcChI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_795324_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
